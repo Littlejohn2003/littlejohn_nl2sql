@@ -7,7 +7,7 @@ st.set_page_config(page_title="NL2SQL Bot", layout="centered")
 st.title("Natural Language to SQL Translator")
 
 # Input field
-query = st.text_input("Enter your question in natural language:")
+query = st.text_input("Enter your question:")
 
 # SQL generation when user clicks on the button
 if st.button("Generate SQL"):
