@@ -10,7 +10,7 @@ from rag_examples import RETRIEVED_CONTEXT
 from ner_module import extract_entities
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCefRkrp8bYZw8z7iDB0GnfzmHxGQWe1Jo")
+genai.configure(api_key="Your-API-KEY")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 def nl2sql(nl_query: str) -> str:
