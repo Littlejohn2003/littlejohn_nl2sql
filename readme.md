@@ -46,7 +46,7 @@ How to Use:-
 Clone the repository and set up your environment:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Littlejohn2003/littlejohn_nl2sql
 cd littlejohn_nl2sql
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
