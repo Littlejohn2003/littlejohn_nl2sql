@@ -46,9 +46,10 @@ How to Use:-
 Clone the repository and set up your environment:
 
 ```bash
-git clone https://github.com/Littlejohn2003/littlejohn_nl2sql
+git clone <repo-url>
 cd littlejohn_nl2sql
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip3 install -r requirements.txt
 python3 -m spacy download en_core_web_sm
+streamlit run app.py
